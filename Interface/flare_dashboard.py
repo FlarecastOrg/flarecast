@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 
 st.title("🔥 Flare Power Monitor")
 
-uploaded_file = st.file_uploader("Upload flare sensor CSV", type="csv")
+uploaded_file = st.file_uploader("Simulated_Ground_Sensor_Data", type="csv")
 
 if uploaded_file:
-    df = pd.read_csv(Simulated_Ground_Sensor_Data)
+    df = pd.read_csv(uploaded_file)
     st.write("Preview:", df.head())
 
     min_temp = st.slider("Min flame temp (°C)", 500, 1100, 800)
