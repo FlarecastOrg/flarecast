@@ -13,4 +13,5 @@ if uploaded_file:
     min_temp = st.slider("Min flame temp (°C)", 500, 1100, 800)
     filtered = df[df["flame_temp_C"] >= min_temp]
 
-    st.line_chart(filtered[["power_MW"]].set_index(df['timestamp']))
+    # Fixed line
+    st.line_chart(filtered.set_index("timestamp")[["power_MW"]])
