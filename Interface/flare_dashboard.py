@@ -31,13 +31,10 @@ st.markdown("""
 
 We combine:
 
-🌍 **Geospatial site intelligence** (energy availability, land access, lead time)
-
-⚡ **Dynamic market inputs** (BTC hash price, LLM token demand)
-
-🧠 **AI-based workload optimization** (mine vs infer vs charge battery)
-
-🌱 **Regulatory alignment** with the FLARE Act (emissions impact + compliance)
+- **Geospatial site intelligence** (energy availability, land access, lead time)
+- **Dynamic market inputs** (BTC hash price, LLM token demand)
+- **AI-based workload optimization** (mine vs infer vs charge battery)
+- **Regulatory alignment** with the FLARE Act (emissions impact + compliance)
 """)
 
 st.markdown("---")  # Add a separator
@@ -77,7 +74,7 @@ if 'map_zoom' not in st.session_state:
     st.session_state.map_zoom = 5
 
 # Create the map
-st.subheader("🗺️ Flare Gas Sites Map")
+st.subheader("Flare Gas Sites Map")
 
 m = folium.Map(
     location=st.session_state.map_center, 
@@ -122,7 +119,7 @@ for index, row in flare_sites_df.iterrows():
 folium_static(m, width=1050, height=400)
 
 # Add table of top 5 sites
-st.subheader("🏆 Top 5 Highest Profit Sites")
+st.subheader("Top 5 Highest Profit Sites")
 
 # Table Header
 cols = st.columns((1, 4, 2, 2, 3, 2, 2, 2))
@@ -137,7 +134,7 @@ for index, row in top_5_sites.iterrows():
     cols[0].markdown(f"**{row['Rank']}**")
     
     # Button to select and highlight the company
-    if cols[1].button(f"📍 {row['Company Name']}", key=f"btn_{index}_{row['Company Name']}"):
+    if cols[1].button(f"{row['Company Name']}", key=f"btn_{index}_{row['Company Name']}"):
         st.session_state.selected_company = row['Company Name']
         
         # Get coords to re-center the map
