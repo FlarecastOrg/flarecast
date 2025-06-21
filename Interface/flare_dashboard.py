@@ -5,6 +5,8 @@ import folium
 from streamlit_folium import folium_static
 import json
 
+from streamlit_extras.switch_page_button import switch_page  
+
 # Configure page layout
 st.set_page_config(
     page_title="Flarecast Dashboard",
@@ -133,16 +135,18 @@ for index, row in top_5_sites.iterrows():
     
     cols[0].markdown(f"**{row['Rank']}**")
     
-    # Button to select and highlight the company
-    if cols[1].button(f"{row['Company Name']}", key=f"btn_{index}_{row['Company Name']}"):
-        st.session_state.selected_company = row['Company Name']
-        
-        # Get coords to re-center the map
-        selected_site_coords = flare_sites_df[flare_sites_df['Company Name'] == row['Company Name']].iloc[0]
-        st.session_state.map_center = [selected_site_coords['Latitude'], selected_site_coords['Longitude']]
-        st.session_state.map_zoom = 12  # Zoom in on the selected site
-        st.experimental_rerun() # Rerun the script to update the map
-
+    # If PetroPartners, redirect to new page
+    if row['Company Name'] == "PetroPartners":
+        if cols[1].button(f"{row['Company Name']}", key=f"btn_{index}_{row['Company Name']}"):
+            switch_page("petro_partners")  # name of your new page file (no .py)
+    else:
+        if cols[1].button(f"{row['Company Name']}", key=f"btn_{index}_{row['Company Name']}"):
+            st.session_state.selected_company = row['Company Name']
+            selected_site_coords = flare_sites_df[flare_sites_df['Company Name'] == row['Company Name']].iloc[0]
+            st.session_state.map_center = [selected_site_coords['Latitude'], selected_site_coords['Longitude']]
+            st.session_state.map_zoom = 12
+            st.experimental_rerun()
+    
     cols[2].markdown(f"**${row['Max_Profit']:,.0f}**")
     cols[3].markdown(f"**{row['Lead Time']}**")
     profit_type_emoji = "🤖" if row['Profit_Type'] == 'Run AI Inference' else "₿"
