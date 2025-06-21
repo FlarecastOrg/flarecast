@@ -1,0 +1,101 @@
+Company Name,Region,Latitude,Longitude,Score,Energy Cost,Lead Time,BTC Profit,AI Profit,CO₂e Saved,Recommendation,Active Site,Recommended Site
+RigEnergy,California (Central Valley),38.246219,-120.052231,74,$28.64/MWh,21 days,$1257,$1223,2306 kg,Mine BTC,Yes,Yes
+DrillLLC,California (Central Valley),37.439363,-121.19415,89,$20.5/MWh,10 days,$1116,$1011,1670 kg,Mine BTC,No,Yes
+RockGroup,California (Central Valley),37.225928,-120.760745,94,$19.55/MWh,18 days,$850,$1076,1895 kg,Run AI,No,No
+PetroInc,California (Central Valley),37.160228,-119.217625,73,$23.79/MWh,15 days,$1170,$1067,1739 kg,Mine BTC,No,Yes
+RockGroup,California (Central Valley),36.696875,-119.675284,90,$27.7/MWh,20 days,$867,$1446,2265 kg,Run AI,No,Yes
+DrillGroup,California (Central Valley),37.097515,-120.753548,84,$18.57/MWh,21 days,$957,$851,2045 kg,Mine BTC,No,No
+OilTechHoldings,California (Central Valley),37.149078,-119.184426,88,$22.34/MWh,9 days,$1034,$841,1553 kg,Mine BTC,No,No
+FracPartners,California (Central Valley),35.039869,-120.845217,83,$27.44/MWh,21 days,$1116,$1425,1521 kg,Run AI,Yes,Yes
+OilTechResources,California (Central Valley),38.44774,-121.205994,80,$21.31/MWh,18 days,$1204,$1287,2410 kg,Run AI,No,Yes
+StrataPartners,California (Central Valley),36.048118,-120.983727,72,$22.64/MWh,14 days,$800,$1414,1773 kg,Run AI,No,Yes
+StrataEnergy,California (Central Valley),35.298558,-120.173823,84,$21.84/MWh,20 days,$1135,$1356,1530 kg,Run AI,Yes,Yes
+DrillResources,California (Central Valley),36.174734,-119.230893,73,$26.55/MWh,9 days,$1212,$1238,2200 kg,Run AI,Yes,Yes
+GeoPartners,California (Central Valley),36.007521,-121.139586,92,$19.14/MWh,19 days,$1282,$1009,2080 kg,Mine BTC,Yes,Yes
+RigResources,California (Central Valley),35.517798,-120.089192,87,$24.03/MWh,18 days,$982,$1244,2493 kg,Run AI,No,No
+FracInc,California (Central Valley),36.775815,-120.689223,70,$27.29/MWh,20 days,$839,$1088,2313 kg,Run AI,No,No
+FracPartners,California (Central Valley),35.185161,-119.330499,85,$23.72/MWh,13 days,$1256,$977,1756 kg,Mine BTC,No,Yes
+StrataResources,Texas (Permian Basin),32.533415,-103.831816,81,$26.25/MWh,20 days,$945,$943,2479 kg,Mine BTC,No,No
+OilTechCorp,Texas (Permian Basin),31.362344,-101.342316,85,$23.94/MWh,17 days,$1133,$1011,2218 kg,Mine BTC,Yes,Yes
+OilTechCorp,Texas (Permian Basin),31.703584,-102.573004,77,$23.16/MWh,16 days,$1160,$1194,2340 kg,Run AI,No,Yes
+GeoEnergy,Texas (Permian Basin),32.814417,-101.570047,94,$24.23/MWh,18 days,$994,$982,1989 kg,Mine BTC,No,No
+EnerCorp,Texas (Permian Basin),31.50886,-103.629904,84,$24.24/MWh,18 days,$958,$891,1793 kg,Mine BTC,No,No
+FracResources,Texas (Permian Basin),32.898039,-101.392116,93,$26.8/MWh,19 days,$1148,$1040,2268 kg,Mine BTC,Yes,Yes
+FracGroup,Texas (Permian Basin),30.748135,-103.655134,74,$22.5/MWh,14 days,$840,$1206,1599 kg,Run AI,Yes,No
+OilTechLLC,Texas (Permian Basin),31.102755,-102.791214,81,$29.65/MWh,20 days,$900,$809,1621 kg,Mine BTC,Yes,No
+ShaleResources,Texas (Permian Basin),31.462641,-102.002714,70,$22.13/MWh,19 days,$888,$1011,2474 kg,Run AI,No,No
+GeoInc,Texas (Permian Basin),31.099742,-103.337947,90,$19.31/MWh,14 days,$1097,$1241,2068 kg,Run AI,Yes,No
+DrillEnergy,Texas (Permian Basin),30.127094,-103.04044,72,$27.62/MWh,17 days,$843,$1221,1586 kg,Run AI,Yes,No
+GeoCorp,Texas (Permian Basin),31.788936,-101.453722,93,$26.73/MWh,17 days,$1098,$1265,2011 kg,Run AI,No,No
+GeoLLC,Texas (Permian Basin),30.841319,-101.999544,75,$24.18/MWh,18 days,$1158,$1109,2066 kg,Mine BTC,Yes,Yes
+RigResources,Texas (Permian Basin),31.789347,-103.413371,74,$23.47/MWh,16 days,$1152,$1197,2311 kg,Run AI,Yes,Yes
+FracCorp,Texas (Permian Basin),32.841615,-102.116297,95,$24.87/MWh,15 days,$853,$961,1964 kg,Run AI,No,No
+ShaleInc,Texas (Permian Basin),31.591394,-101.038687,83,$28.27/MWh,14 days,$1268,$1252,1649 kg,Mine BTC,No,Yes
+RigHoldings,North Dakota (Bakken),47.814961,-102.625835,81,$25.84/MWh,10 days,$850,$1067,1817 kg,Run AI,Yes,No
+FracEnergy,North Dakota (Bakken),48.527422,-101.013804,85,$22.7/MWh,13 days,$1023,$1058,1540 kg,Run AI,Yes,No
+RockEnergy,North Dakota (Bakken),48.11876,-102.024353,92,$26.46/MWh,17 days,$1001,$1318,2016 kg,Run AI,No,Yes
+PetroResources,North Dakota (Bakken),48.958478,-101.334286,80,$26.54/MWh,15 days,$935,$846,1898 kg,Mine BTC,Yes,No
+EnerGroup,North Dakota (Bakken),47.243692,-102.419038,73,$18.3/MWh,15 days,$896,$1440,2431 kg,Run AI,Yes,Yes
+OilTechCorp,North Dakota (Bakken),47.951626,-101.168922,74,$21.07/MWh,15 days,$932,$939,1786 kg,Run AI,Yes,No
+DrillGroup,North Dakota (Bakken),48.686535,-103.389209,70,$27.57/MWh,17 days,$1168,$1335,1812 kg,Run AI,Yes,Yes
+EnerHoldings,North Dakota (Bakken),48.358721,-101.964337,88,$28.34/MWh,15 days,$1128,$866,2340 kg,Mine BTC,No,Yes
+OilTechHoldings,North Dakota (Bakken),47.384765,-103.12155,72,$21.45/MWh,15 days,$804,$1213,1705 kg,Run AI,No,No
+FracGroup,North Dakota (Bakken),48.2982,-101.717176,79,$23.96/MWh,14 days,$954,$1027,2414 kg,Run AI,No,No
+ShaleInc,North Dakota (Bakken),48.03193,-102.727449,95,$24.97/MWh,19 days,$971,$1357,1656 kg,Run AI,No,Yes
+RigGroup,North Dakota (Bakken),48.382586,-102.958441,89,$26.66/MWh,14 days,$978,$1438,2130 kg,Run AI,No,Yes
+DrillInc,North Dakota (Bakken),47.125207,-102.593063,85,$21.86/MWh,15 days,$1007,$1222,2187 kg,Run AI,No,No
+RigHoldings,North Dakota (Bakken),47.444553,-103.014426,89,$28.13/MWh,19 days,$892,$1029,1560 kg,Run AI,No,No
+DrillCorp,North Dakota (Bakken),48.513969,-103.72015,79,$29.52/MWh,9 days,$1193,$1152,2449 kg,Mine BTC,No,Yes
+DrillEnergy,North Dakota (Bakken),47.580918,-103.241555,95,$21.19/MWh,21 days,$1176,$889,1569 kg,Mine BTC,No,Yes
+GeoLLC,Colorado (DJ Basin),38.575719,-105.329614,82,$27.63/MWh,21 days,$1149,$1462,1732 kg,Run AI,Yes,Yes
+PetroGroup,Colorado (DJ Basin),38.504349,-105.293924,78,$25.63/MWh,17 days,$1297,$1143,1819 kg,Mine BTC,No,Yes
+FracCorp,Colorado (DJ Basin),40.384637,-104.245511,80,$20.23/MWh,20 days,$1090,$1460,1887 kg,Run AI,No,Yes
+StrataCorp,Colorado (DJ Basin),40.234854,-103.26034,72,$23.17/MWh,19 days,$1043,$1411,1657 kg,Run AI,No,Yes
+DrillGroup,Colorado (DJ Basin),40.701154,-103.80254,73,$21.64/MWh,20 days,$1234,$952,1703 kg,Mine BTC,No,Yes
+DrillInc,Colorado (DJ Basin),38.625719,-103.613303,92,$19.06/MWh,14 days,$1204,$1294,1844 kg,Run AI,No,Yes
+EnerInc,Colorado (DJ Basin),40.876931,-103.593939,71,$19.45/MWh,19 days,$891,$1307,1693 kg,Run AI,Yes,Yes
+StrataCorp,Colorado (DJ Basin),39.317119,-104.150936,72,$28.3/MWh,15 days,$1259,$1012,2378 kg,Mine BTC,No,Yes
+DrillInc,Colorado (DJ Basin),39.282779,-103.053812,86,$22.95/MWh,21 days,$833,$1486,1582 kg,Run AI,No,Yes
+EnerEnergy,Colorado (DJ Basin),39.985001,-103.612567,82,$28.85/MWh,15 days,$952,$932,2306 kg,Mine BTC,Yes,No
+FracResources,Colorado (DJ Basin),39.182621,-104.595875,76,$25.62/MWh,21 days,$1129,$1353,2390 kg,Run AI,Yes,Yes
+FracGroup,Colorado (DJ Basin),38.515524,-103.705724,90,$21.73/MWh,17 days,$860,$887,1797 kg,Run AI,Yes,No
+FracInc,Colorado (DJ Basin),38.593777,-105.443071,95,$28.44/MWh,15 days,$832,$1324,1737 kg,Run AI,No,Yes
+DrillPartners,Colorado (DJ Basin),38.530937,-104.356298,72,$24.53/MWh,21 days,$1185,$1303,2238 kg,Run AI,No,Yes
+PetroHoldings,Colorado (DJ Basin),39.913173,-104.978633,89,$21.07/MWh,16 days,$1204,$1418,2039 kg,Run AI,Yes,Yes
+ShaleGroup,Colorado (DJ Basin),39.352374,-105.122816,70,$24.77/MWh,14 days,$1132,$1348,2437 kg,Run AI,Yes,Yes
+FracResources,New Mexico (Permian extension),32.325013,-103.783467,92,$28.98/MWh,16 days,$987,$1038,2162 kg,Run AI,Yes,No
+FracPartners,New Mexico (Permian extension),33.726612,-103.633292,88,$22.69/MWh,21 days,$880,$1039,2006 kg,Run AI,No,No
+EnerCorp,New Mexico (Permian extension),33.916496,-103.626839,83,$25.2/MWh,15 days,$1288,$1004,2123 kg,Mine BTC,Yes,Yes
+FracEnergy,New Mexico (Permian extension),33.118925,-104.142693,82,$29.09/MWh,15 days,$933,$933,1977 kg,Run AI,No,No
+RockCorp,New Mexico (Permian extension),33.034422,-103.675632,83,$20.08/MWh,17 days,$857,$919,1759 kg,Run AI,Yes,No
+DrillCorp,New Mexico (Permian extension),33.697109,-104.094736,78,$20.47/MWh,17 days,$1078,$1449,1594 kg,Run AI,No,Yes
+DrillGroup,New Mexico (Permian extension),31.731235,-104.160693,70,$29.2/MWh,21 days,$936,$1238,1984 kg,Run AI,No,No
+GeoLLC,New Mexico (Permian extension),32.470091,-103.681086,94,$29.57/MWh,16 days,$988,$1495,1501 kg,Run AI,No,Yes
+FracLLC,New Mexico (Permian extension),31.567055,-103.598983,87,$20.31/MWh,19 days,$1142,$934,1600 kg,Mine BTC,No,Yes
+RockLLC,New Mexico (Permian extension),31.821613,-104.185905,77,$21.44/MWh,18 days,$1035,$1192,1657 kg,Run AI,Yes,No
+DrillLLC,New Mexico (Permian extension),33.056651,-104.466881,91,$26.2/MWh,20 days,$1011,$1445,2282 kg,Run AI,Yes,Yes
+FracLLC,New Mexico (Permian extension),32.637273,-103.142481,82,$29.04/MWh,17 days,$879,$1283,2480 kg,Run AI,Yes,No
+DrillHoldings,New Mexico (Permian extension),32.489488,-104.378698,83,$29.23/MWh,16 days,$1190,$999,1809 kg,Mine BTC,Yes,Yes
+PetroPartners,New Mexico (Permian extension),32.625752,-104.433852,80,$19.39/MWh,16 days,$1013,$848,2418 kg,Mine BTC,Yes,No
+PetroEnergy,New Mexico (Permian extension),32.488906,-103.883053,72,$20.25/MWh,18 days,$1248,$1037,2170 kg,Mine BTC,No,Yes
+PetroResources,New Mexico (Permian extension),33.67247,-104.409252,85,$27.67/MWh,19 days,$835,$1207,1992 kg,Run AI,No,No
+DrillResources,Pennsylvania (Marcellus),41.087737,-79.957176,85,$22.85/MWh,14 days,$1150,$1359,1739 kg,Run AI,No,Yes
+GeoResources,Pennsylvania (Marcellus),40.487289,-79.518257,88,$19.4/MWh,20 days,$1083,$1145,2133 kg,Run AI,No,No
+StrataPartners,Pennsylvania (Marcellus),40.04401,-79.226879,84,$25.31/MWh,17 days,$900,$1096,1663 kg,Run AI,No,No
+EnerEnergy,Pennsylvania (Marcellus),41.281553,-78.886019,79,$19.23/MWh,15 days,$937,$1299,2176 kg,Run AI,No,No
+StrataGroup,Pennsylvania (Marcellus),40.761033,-76.675116,93,$22.94/MWh,20 days,$1025,$1217,1772 kg,Run AI,No,No
+RockCorp,Pennsylvania (Marcellus),40.396236,-78.996301,77,$22.5/MWh,20 days,$981,$1110,2174 kg,Run AI,Yes,No
+RockResources,Pennsylvania (Marcellus),41.051124,-78.237596,89,$19.1/MWh,19 days,$990,$1051,2194 kg,Run AI,Yes,No
+EnerCorp,Pennsylvania (Marcellus),42.353434,-79.568393,95,$28.06/MWh,17 days,$1265,$996,2078 kg,Mine BTC,Yes,Yes
+EnerGroup,Pennsylvania (Marcellus),40.685614,-77.52686,87,$19.28/MWh,21 days,$947,$1297,1894 kg,Run AI,Yes,No
+GeoEnergy,Pennsylvania (Marcellus),42.104027,-77.318164,89,$27.89/MWh,21 days,$1009,$1043,2222 kg,Run AI,Yes,No
+GeoInc,Pennsylvania (Marcellus),41.543523,-78.051356,75,$18.02/MWh,18 days,$1184,$1087,1889 kg,Mine BTC,Yes,Yes
+ShaleResources,Pennsylvania (Marcellus),41.133683,-77.008405,74,$19.23/MWh,14 days,$1257,$1448,1731 kg,Run AI,Yes,Yes
+PetroResources,Pennsylvania (Marcellus),41.301603,-78.579703,79,$27.8/MWh,17 days,$1186,$882,1582 kg,Mine BTC,No,Yes
+OilTechGroup,Pennsylvania (Marcellus),42.368886,-79.636638,81,$20.27/MWh,19 days,$806,$1116,2193 kg,Run AI,No,No
+FracCorp,Pennsylvania (Marcellus),40.161302,-76.33914,90,$27.57/MWh,15 days,$1035,$820,1651 kg,Mine BTC,Yes,No
+FracInc,Pennsylvania (Marcellus),40.341167,-77.88323,92,$24.51/MWh,20 days,$804,$1010,2247 kg,Run AI,Yes,No
+DrillGroup,Outlier Zone,37.553983,-90.626982,74,$19.79/MWh,17 days,$1279,$1317,1531 kg,Run AI,Yes,Yes
+RockCorp,Outlier Zone,45.466843,-90.041476,74,$27.24/MWh,15 days,$1159,$1334,1952 kg,Run AI,Yes,Yes
+FracGroup,Outlier Zone,38.750773,-102.908322,80,$18.52/MWh,15 days,$879,$877,1531 kg,Mine BTC,No,No
+PetroResources,Outlier Zone,36.642736,-89.780897,86,$26.77/MWh,16 days,$808,$881,1719 kg,Run AI,Yes,No
